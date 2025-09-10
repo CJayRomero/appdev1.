@@ -1,3 +1,4 @@
-Hotfix
+Feature work
+More feature work
 
 Rebase is a way to move or “replay” your commits on top of another branch, making the history cleaner and easier to follow.
