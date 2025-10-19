@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Activity</title>
+</head>
+<body>
+    <button id="colorBtn">Change Background</button>
+    <p id="favColor"></p>
+    <p id="timeoutMsg"></p>
+
+    <script>
+        // Change background
+        document.getElementById("colorBtn").onclick = function() {
+            document.body.style.backgroundColor = "lightblue";
+        };
+
+        // Prompt for favorite color
+        let favorite = prompt("What is your favorite color?");
+        document.getElementById("favColor").textContent = "Your favorite color is " + favorite;
+
+        // setTimeout
+        setTimeout(() => {
+            document.getElementById("timeoutMsg").textContent = "This message appears after 2 seconds";
+        }, 2000);
+    </script>
+</body>
+</html>

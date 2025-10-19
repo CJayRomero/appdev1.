@@ -1,0 +1,3 @@
+Hotfix
+
+Git merge combines changes from one branch into another, keeping the history of both branches intact.

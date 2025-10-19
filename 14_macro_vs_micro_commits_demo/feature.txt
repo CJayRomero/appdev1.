@@ -1,0 +1,3 @@
+Feature A
+
+Realization: Macro commits are big changes saved in one commit, while micro commits are small step-by-step saves that make the history easier to follow.
