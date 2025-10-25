@@ -12,3 +12,4 @@ export default function PureComponent({ nums }) {
     </div>
   );
 }
+/* comment */
