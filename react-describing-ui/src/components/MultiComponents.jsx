@@ -8,3 +8,4 @@ export function Farewell({ name }) {
 }
 
 // default export or nothing; we exported named components above
+/* comment */
